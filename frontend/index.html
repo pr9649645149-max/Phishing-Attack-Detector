@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Attack Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🛡️ Phishing Attack Detector</h1>
+    <p>Check suspicious URLs and email messages.</p>
+
+    <label for="type">Choose detection type</label>
+    <select id="type">
+      <option value="url">Check URL</option>
+      <option value="email">Check Email</option>
+    </select>
+
+    <textarea id="input"
+      placeholder="Enter a URL or email message..."></textarea>
+
+    <button id="check">Check Now</button>
+    <div id="result" role="status"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
